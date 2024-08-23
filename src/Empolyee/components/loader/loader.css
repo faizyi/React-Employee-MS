@@ -1,0 +1,26 @@
+.loader-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .loader{
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    border: 5px solid transparent;
+    border-top-color: rgb(33, 65, 209);
+    border-bottom-color: rgb(33, 65, 209);
+    border-right-color: rgb(33, 65, 209);
+    animation: an2 1s ease infinite;
+  }
+  @keyframes an2{
+    0% {
+        transform: rotate(2turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+  }
